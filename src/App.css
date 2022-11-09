@@ -1,0 +1,49 @@
+body{
+  color: lightblue;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em 13em;
+}
+.w-100{
+  width:100%;
+}
+.todo-item{
+ padding: 0.5em;
+  width:100%;
+  border: 1px solid lightblue;
+}
+.input-box{
+  height:40px;
+  width:85%;
+  border: 1px solid lightblue;
+}
+.input-box:focus{
+  outline: none;
+}
+.button-add{
+  margin-left: 1em;
+  height: 42px;
+  width: 10%;
+  border: none;
+  background-color: lightblue;
+  min-width: 26px;
+  color: white;
+}
+.button-add:hover{
+  background-color: white;
+  color: lightblue;
+  border: 2px solid lightblue;
+}
+.button-delete{
+  background-color: white;
+  border: 2px solid lightblue;
+  color: lightblue;
+  margin-top: 10px;
+}
+.button-delete:hover{
+  background-color: lightblue;
+  color: white;
+}
