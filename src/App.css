@@ -1,35 +1,39 @@
 body{
-  color: lightblue;
+  color: lightblue !important ;
+  background-color: aliceblue !important; 
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5em 13em;
-}
-.w-100{
-  width:100%;
-}
+
+
+
 .todo-item{
- padding: 0.5em;
-  width:100%;
   border: 1px solid lightblue;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo-content{
+  padding:1em
+}
+.add-item-row{
+  margin-top:50px !important;
+  margin-bottom: 30px;
 }
 .input-box{
-  height:40px;
-  width:85%;
+  padding: 10px;
+  width:100%;
   border: 1px solid lightblue;
+  
+  
 }
 .input-box:focus{
   outline: none;
 }
 .button-add{
-  margin-left: 1em;
-  height: 42px;
-  width: 10%;
+  height: 40px;
+  width: 100%;
   border: none;
   background-color: lightblue;
-  min-width: 26px;
   color: white;
 }
 .button-add:hover{
@@ -41,9 +45,14 @@ body{
   background-color: white;
   border: 2px solid lightblue;
   color: lightblue;
-  margin-top: 10px;
+  margin: 10px;
 }
 .button-delete:hover{
   background-color: lightblue;
-  color: white;
+  color: #ffffff;
+}
+
+.item-complete{
+  background-color: gainsboro;
+  color:white;
 }
