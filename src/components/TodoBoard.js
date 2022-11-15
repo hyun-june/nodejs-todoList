@@ -5,11 +5,15 @@ const TodoBoard = ({ todoList, deleteItem, toggleComplete }) => {
   return (
     <div>
       <h2>Todo List</h2>
-      {todoList && todoList.length > 0 ? (
-        todoList.map((item, index) => <TodoItem />)
-      ) : (
-        <h1>There is no item in the List </h1>
-      )}
+      {todoList.length > 0 &&
+        todoList.map((item, index) => (
+          <TodoItem
+            item={item}
+            key={index}
+            deleteItem={deleteItem}
+            toggleComplete={toggleComplete}
+          />
+        ))}
     </div>
   );
 };
