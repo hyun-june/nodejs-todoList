@@ -5,10 +5,10 @@ react와 nodejs를 이용해서 풀스택 할 일 앱 만들기
 (restful api)
 
 ## 기능
-1. 할 일을 추가 할 수 있다.
-2. 할 일 리스트를 볼 수 있다.
-3. 할 일에 대해서 끝남 안끝남 표시를 할 수 있다.
-4. 할 일을 삭제 할 수 있다.
+1. 할 일을 추가 할 수 있다. (/tasks post)
+2. 할 일 리스트를 볼 수 있다. (/tasks get)
+3. 할 일에 대해서 끝남 안끝남 표시를 할 수 있다. (/tasks/:id put)
+4. 할 일을 삭제 할 수 있다. (/tasks/:id delete)
 
 ## 백엔드 준비
 1. 기본세팅 : npm세팅, express, mongoose, app listen
