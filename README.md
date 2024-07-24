@@ -21,3 +21,9 @@ react와 nodejs를 이용해서 풀스택 할 일 앱 만들기
 1. 깃 클론
 2. 기능 만들기 : CRUD
 3. 테스트
+
+## 배포
+1. 데이터베이스 배포 : Mongodb Altas
+2. 백엔드 배포 : Elastic Beanstalk
+3. 프론트엔드 배포 : netlify
+4. 테스트
